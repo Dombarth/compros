@@ -1247,7 +1247,7 @@ p {
     font-size: 3rem;
     font-weight: 700;
     color: var(--primary-blue);
-    font-family: var(--font-display);
+    font-family: var(--font-primary);
     line-height: 1;
 }
 
