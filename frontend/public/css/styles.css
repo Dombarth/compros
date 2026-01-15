@@ -25,8 +25,8 @@
     --shadow-md: 0 4px 20px rgba(0, 119, 182, 0.12);
     --shadow-lg: 0 8px 40px rgba(0, 119, 182, 0.16);
     --transition: all 0.3s ease;
-    --font-primary: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-    --font-display: 'Cormorant Garamond', Georgia, serif;
+    --font-primary: 'Rubik', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-display: 'Rubik', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 html {
