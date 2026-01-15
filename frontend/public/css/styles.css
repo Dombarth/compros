@@ -1356,10 +1356,12 @@ p {
         opacity: 1;
         visibility: visible;
         box-shadow: none;
-        padding: 0.75rem 0 0.5rem 0;
+        padding: 0.5rem 0 0.5rem 1rem;
         display: none;
         min-width: 100%;
         background: transparent;
+        border-radius: 0;
+        left: auto;
     }
     
     .nav-item.active .dropdown {
@@ -1367,15 +1369,16 @@ p {
     }
     
     .dropdown-link {
-        padding: 0.6rem 1rem;
+        padding: 0.6rem 0;
         display: block;
-        font-size: 0.9rem;
+        font-size: 0.95rem;
         color: var(--text-gray);
+        background: transparent;
     }
     
     .dropdown-link:hover {
         color: var(--primary-blue);
-        background: var(--primary-blue-light);
+        background: transparent;
     }
     
     .hero {
