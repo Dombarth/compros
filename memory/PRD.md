@@ -71,9 +71,10 @@ Build a clone of labiome.com.au but adapted for a computer repair business named
 ## Prioritized Backlog
 
 ### P0 - High Priority
-- [ ] Update remaining service pages with hero images and consistent design
-- [ ] Update remaining area pages with hero images and consistent design
-- [ ] Test mobile responsiveness across all pages
+- [x] Update remaining service pages with hero images and consistent design ✅
+- [x] Update remaining area pages with hero images and consistent design ✅
+- [x] Test mobile responsiveness across all pages ✅
+- [x] Fix mobile dropdown navigation ✅
 
 ### P1 - Medium Priority
 - [ ] Add favicon
