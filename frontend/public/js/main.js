@@ -19,10 +19,16 @@ document.addEventListener('DOMContentLoaded', function() {
         const link = item.querySelector('.nav-link');
         const dropdown = item.querySelector('.dropdown');
         
-        if (link && dropdown && window.innerWidth <= 768) {
+        if (link && dropdown) {
             link.addEventListener('click', function(e) {
                 if (window.innerWidth <= 768) {
                     e.preventDefault();
+                    // Close other dropdowns
+                    navItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.classList.remove('active');
+                        }
+                    });
                     item.classList.toggle('active');
                 }
             });
