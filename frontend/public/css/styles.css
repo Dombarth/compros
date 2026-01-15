@@ -400,11 +400,6 @@ p {
     color: rgba(255, 255, 255, 0.9);
 }
 
-.hero h1 em {
-    font-style: italic;
-    color: #ffdd57;
-}
-
 .hero-subtitle {
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.9);
