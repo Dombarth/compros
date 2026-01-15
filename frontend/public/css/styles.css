@@ -1325,6 +1325,7 @@ p {
         transition: var(--transition);
         box-shadow: var(--shadow-lg);
         overflow-y: auto;
+        overflow-x: hidden;
         z-index: 999;
     }
     
@@ -1334,6 +1335,7 @@ p {
     
     .nav-item {
         width: 100%;
+        position: relative;
     }
     
     .nav-link {
@@ -1344,6 +1346,7 @@ p {
     
     .mobile-toggle {
         display: flex;
+        z-index: 1001;
     }
     
     .nav-actions {
@@ -1351,7 +1354,7 @@ p {
     }
     
     .dropdown {
-        position: static;
+        position: relative;
         transform: none;
         opacity: 1;
         visibility: visible;
@@ -1359,9 +1362,15 @@ p {
         padding: 0.5rem 0 0.5rem 1rem;
         display: none;
         min-width: 100%;
+        width: 100%;
         background: transparent;
         border-radius: 0;
-        left: auto;
+        left: 0;
+        top: 0;
+    }
+    
+    .nav-item:hover .dropdown {
+        transform: none;
     }
     
     .nav-item.active .dropdown {
@@ -1374,6 +1383,7 @@ p {
         font-size: 0.95rem;
         color: var(--text-gray);
         background: transparent;
+        width: 100%;
     }
     
     .dropdown-link:hover {
