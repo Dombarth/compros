@@ -317,7 +317,9 @@ p {
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 0.75rem;
+    margin-right: 0.25rem;
+    flex-shrink: 0;
 }
 
 .mobile-toggle span {
