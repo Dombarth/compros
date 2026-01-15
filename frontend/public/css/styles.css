@@ -945,13 +945,15 @@ p {
     text-align: center;
 }
 
-.page-hero h1 {
+.page-hero h1,
+.page-hero h2,
+.page-hero h3 {
     margin-bottom: 1rem;
-    color: white;
+    color: #ffffff !important;
 }
 
 .page-hero p {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .breadcrumb {
