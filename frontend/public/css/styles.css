@@ -104,10 +104,11 @@ p {
     top: 0;
     left: 0;
     right: 0;
+    width: 100%;
     z-index: 1000;
     background: var(--white);
     border-bottom: 1px solid var(--border-light);
-    transition: var(--transition);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
 .header.scrolled {
@@ -119,6 +120,7 @@ p {
     align-items: center;
     justify-content: space-between;
     height: 85px;
+    padding-right: 0.5rem;
 }
 
 /* IMPACTFUL LOGO STYLES */
