@@ -12,7 +12,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="css/styles.css">
     
@@ -35,7 +35,13 @@
     <header class="header">
         <nav class="nav container">
             <a href="index.html" class="logo">
-                <span class="logo-text"><span>Computer</span><span>Repair Pros</span></span>
+                <div class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                </div>
+                <span class="logo-text">
+                    <span class="logo-main">Computer Repair</span>
+                    <span class="logo-sub">Hills District Pros</span>
+                </span>
             </a>
             
             <ul class="nav-menu">
@@ -93,11 +99,14 @@
         </nav>
     </header>
 
-    <!-- Page Hero -->
+    <!-- Page Hero with Image -->
     <section class="page-hero">
+        <div class="page-hero-bg">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1920&q=80" alt="Computer repair team">
+        </div>
         <div class="container">
             <h1>About Computer Repair Pros</h1>
-            <p style="color: var(--text-gray); max-width: 600px; margin: 0 auto;">Your trusted local computer repair experts serving Sydney's Hills District since 2010.</p>
+            <p style="max-width: 600px; margin: 0 auto;">Your trusted local computer repair experts serving Sydney's Hills District since 2010.</p>
             <div class="breadcrumb" style="margin-top: 1rem;">
                 <a href="index.html">Home</a>
                 <span>/</span>
@@ -117,18 +126,18 @@
                     <p>What started as a one-person operation in Castle Hill has grown into a team of certified technicians serving thousands of customers across the entire Hills Shire. We've built our reputation on trust, transparency, and technical excellence.</p>
                     <p>We understand how frustrating computer problems can be. That's why we focus on clear communication, fair pricing, and fast turnaround times. We treat every device as if it were our own, and we don't consider a job done until our customer is completely satisfied.</p>
                     
-                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 2rem;">
-                        <div style="text-align: center;">
-                            <div style="font-size: 2.5rem; font-weight: 700; color: var(--primary-teal);">15+</div>
-                            <div style="font-size: 0.9rem; color: var(--text-gray);">Years Experience</div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Years Experience</div>
                         </div>
-                        <div style="text-align: center;">
-                            <div style="font-size: 2.5rem; font-weight: 700; color: var(--primary-teal);">5,000+</div>
-                            <div style="font-size: 0.9rem; color: var(--text-gray);">Happy Customers</div>
+                        <div class="stat-item">
+                            <div class="stat-number">5,000+</div>
+                            <div class="stat-label">Happy Customers</div>
                         </div>
-                        <div style="text-align: center;">
-                            <div style="font-size: 2.5rem; font-weight: 700; color: var(--primary-teal);">98%</div>
-                            <div style="font-size: 0.9rem; color: var(--text-gray);">Success Rate</div>
+                        <div class="stat-item">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Success Rate</div>
                         </div>
                     </div>
                 </div>
@@ -231,7 +240,12 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <div class="footer-logo">
-                        <span class="logo-text"><span style="color: #e06377;">Computer</span><span style="color: #4ecdc4;">Repair Pros</span></span>
+                        <a href="index.html" class="logo">
+                            <span class="logo-text">
+                                <span class="logo-main">Computer Repair</span>
+                                <span class="logo-sub">Hills District Pros</span>
+                            </span>
+                        </a>
                     </div>
                     <p>Your trusted local computer repair experts serving Sydney's Hills District since 2010. Fast, reliable, and affordable service for all your tech needs.</p>
                     <div class="footer-contact">
